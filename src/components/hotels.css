@@ -1,0 +1,138 @@
+.container1 {
+    position: relative;
+    /* margin-top: 50px; */
+    /* width: 500px; */
+    height: 300px;
+  }
+  
+  .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0);
+    transition: background 0.5s ease;
+  }
+  
+  .container1:hover .overlay {
+    display: block;
+    background: rgba(0, 0, 0, .3);
+  }
+  
+  /* .img1 {
+    position: absolute;
+    width: 500px;
+    height: 300px;
+    left: 0;
+        transition: top .5s ease;
+
+  } */
+  
+  /* .title1 {
+    position: absolute;
+    width: 500px;
+    left: 0;
+    top: 120px;
+    font-weight: 700;
+    font-size: 30px;
+    text-align: center;
+    text-transform: uppercase;
+    color: white;
+    z-index: 1;
+    transition: top .5s ease;
+  } */
+  
+  /* .container1:hover .title1 {
+    top: 90px;
+  } */
+  
+  .button1 {
+    position: absolute;
+    width: 100px;
+    left:-100px;
+    top: 180px;
+    text-align: end;
+    opacity: 0;
+    transition: opacity .35s ease;
+  }
+  .button2 {
+    position: absolute;
+    width: 310px;
+    left:-100px;
+    top: 180px;
+    text-align: end;
+    opacity: 0;
+    transition: opacity .35s ease;
+  }
+  /* .button2 {
+    position: absolute;
+    width: 300px;
+    left:100px;
+    top: 180px;
+    text-align: center;
+    opacity: 0;
+    transition: opacity .35s ease;
+  } */
+  
+  .button1 a {
+    width: 200px;
+    padding: 12px 48px;
+    text-align: center;
+    color: white;
+    border: solid 2px white;
+    z-index: 1;
+  }
+  .button2 a {
+    width: 200px;
+    padding: 12px 48px;
+    text-align: center;
+    color: white;
+    border: solid 2px white;
+    z-index: 1;
+  }
+  
+  .container1:hover .button1 {
+    opacity: 1;
+  }
+
+  .container1:hover .button2 {
+    opacity: 1;
+  }
+  
+  .img1:hover{
+    display: block;
+    background: rgba(0, 0, 0, .7);
+    cursor: pointer;
+  }
+  .col1{
+  box-shadow:0 4px 8px 0 rgba(0,0,0,0.2)
+  }
+  .button1:hover{
+      color:red
+  }
+
+  .button2:hover{
+    color:red
+}
+  .card-title1{
+      margin-left: 15px;
+  }
+  .card-title1:hover{
+cursor: pointer;
+  }
+
+  .price{
+      margin-right: 15px;
+  }
+
+  .test{
+    color: white;
+    cursor: pointer;
+  }
+  .test:hover{
+    color:red
+  }
+  .card{
+padding: 0px !important;
+  }

@@ -1,0 +1,15 @@
+.bac{
+    background-image:url('https://hyra.cron24.com/images/ready_to_host.jpg?5386e7c0841783714ba0e5b5379ad116') ;
+background-repeat: no-repeat;
+height: 30rem   !important;
+background-size: cover;
+margin-top: 100px !important;
+margin-bottom: 100px !important;
+}
+.c{
+    color: black;
+}
+.ready{
+    font-size: 35px;
+    text-shadow: 2px 2px 4px white;
+}

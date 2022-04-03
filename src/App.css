@@ -1,0 +1,66 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Poppins:wght@400;500;600;700&family=Ubuntu:wght@400;500;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+::-webkit-scrollbar {
+  width: 8.5px;
+}
+/* ::-webkit-scrollbar-track{
+  background-color: white;
+}
+::-webkit-scrollbar-thumb{
+  background-color: blueviolet;
+} */
+*/ ::-webkit-scrollbar {
+  -webkit-appearance: none;
+}
+::-webkit-scrollbar-thumb {
+  background-color: #198754;
+  border-radius: 5px;
+  border: 2px solid #dee2e6;
+}
+::-webkit-scrollbar-track {
+  border-radius: 5px;
+  background-color: #dee2e6;
+}
+
+.header-search {
+  border: 1px solid #dddddd;
+  border-radius: 24px;
+  color: #222222;
+  max-width: 100%;
+  width: 300px;
+  transition: unset !important;
+  vertical-align: middle;
+  cursor: pointer;
+  transition: 0.2s all !important;
+}
+.header-search button {
+  margin: 7px 7px 7px 0;
+}
+.header-search:hover {
+  box-shadow: 0px 2px 4px rgb(0 0 0 / 18%);
+  transition: 0.2s all !important;
+}
+.line-separator {
+  display: flex;
+  flex-basis: 100%;
+  font-size: 18px;
+}
+.line-separator:before,
+.line-separator:after {
+  content: "";
+  flex-grow: 1;
+  background: #c7c7c7;
+  height: 1px;
+}
+
+.modal-fullscreen .modal-content {
+  height: 150px !important;
+  border: 0;
+  border-radius: 0;
+}

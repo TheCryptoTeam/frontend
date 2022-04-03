@@ -1,0 +1,59 @@
+.details{
+    display: flex;
+    flex-direction: column;
+}
+.center{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+.rating{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    
+   
+  
+   
+}
+.avarage{
+    display: flex;
+    align-items: center;
+}
+#star{
+    color: gold;
+}
+.votes{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.price{
+    display: inline-block;
+    
+}
+.booking{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.date{
+    display: flex;
+    justify-content: space-between;
+}
+.detailBooking{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    column-gap: 5px;
+}
+.modelBooking{
+   
+    color: #fff;
+}
+#booking{
+flex-direction: column;
+background-color: #111;
+color: #fff;
+}
