@@ -1,13 +1,10 @@
 import React from "react";
-import { useState, useEffect } from "react";
+import { useState } from "react";
 import axios from "axios";
 import {
-  Button,
-  Container,
-  Modal,
+ 
   Form,
-  Table,
-  Pagination,
+  
 } from "react-bootstrap";
 const UploadFile = ({ setImage }) => {
   const [file, setFile] = useState();
